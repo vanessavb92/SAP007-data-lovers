@@ -150,7 +150,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
     <details><summary>Links</summary><p>
 
-  - [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/02-loops)
+  - [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-c  ontrol/02-loops)
   - [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
   </p></details>
 

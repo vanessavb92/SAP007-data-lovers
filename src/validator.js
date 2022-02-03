@@ -1,5 +1,12 @@
 const validator = {
-  // ...
-};
+  valid() {
+    // e.preventDefault();
 
-export default validator;
+    let cardNumber = document.getElementsByName("cardNumber");
+
+    let cardNumberValue = cardNumber.value;
+    console.log(cardNumberValue);
+    console.log(typeof cardNumberValue);
+
+  }
+} 
