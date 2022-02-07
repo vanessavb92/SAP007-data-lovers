@@ -1,0 +1,23 @@
+                      💳Cartão de Crédito Válido
+                          🔧Introdução
+Neste projeto é usado o algoritmo de Luhn, que é um método de soma de verificação, usado para validar números de identificação, como o IMEI de telefones celulares, cartões de crédito etc.
+
+Além disso, você terá seus dados protegidos pela funcionalidade de ocultação dos dígitos do cartão, exceto os quatro últimos dígitos.
+
+                    😀 Resumo do Projeto
+Este projeto foi baseado em aplicaçao indiana,na qual usuario escolhe o produto referido logo após clica 
+em comprar sendo direcionado ao 💳Cartão de credito,esta aplicaçao ainda esta em contrução.
+
+                        🧐💻 Acesso
+Click aqui para acessar o projeto -> 
+
+                🟩🟨🟥🟧 Protótipo
+                 Protótipo tela 1 e 2
+
+                tela 
+Tela Principal do Card-Validation
+
+                  🤖 Tecnologias Utilizadas
+HTML 5
+CSS3
+JavaScript
