@@ -5,7 +5,7 @@
   
   
   .header {
-    background-color: white;
+    background-color: black;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -20,9 +20,9 @@
     max-width: 992px;
     margin: 0 auto;
   }
-  
+  /*cor do texto na parte superior*/
   .nav-link {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   
