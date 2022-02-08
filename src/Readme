@@ -1,23 +1,32 @@
-                      💳Cartão de Crédito Válido
-                          🔧Introdução
-Neste projeto é usado o algoritmo de Luhn, que é um método de soma de verificação, usado para validar números de identificação, como o IMEI de telefones celulares, cartões de crédito etc.
+    Cartão de Crédito Válido 💳
 
-Além disso, você terá seus dados protegidos pela funcionalidade de ocultação dos dígitos do cartão, exceto os quatro últimos dígitos.
+           Índice 👇
 
-                    😀 Resumo do Projeto
-Este projeto foi baseado em aplicaçao indiana,na qual usuario escolhe o produto referido logo após clica 
-em comprar sendo direcionado ao 💳Cartão de credito,esta aplicaçao ainda esta em contrução.
+- [1. Introdução](#1-Introdução)
+- [2. Resumo do projeto](#2-resumo-do-projeto)
+- [4. Considerações gerais](#4-consideracoes-gerais)
+- [9. Checklist](#9-checklist)
 
-                        🧐💻 Acesso
-Click aqui para acessar o projeto -> 
+---
 
-                🟩🟨🟥🟧 Protótipo
-                 Protótipo tela 1 e 2
+           1. Introdução👇
+           O [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
+chamado de módulo 10, é um método de soma de verificação, usado para validar
+números de identificação, como o IMEI de telefones celulares, cartões de crédito
+etc.
 
-                tela 
-Tela Principal do Card-Validation
+Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que
+contém apenas dígitos [0-9]); todos os números que ocupam uma posição par devem
+ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
+adicionar os dígitos do resultado; o número a verificar será válido se a soma de
+seus dígitos finais for um múltiplo de 10.
 
-                  🤖 Tecnologias Utilizadas
-HTML 5
-CSS3
-JavaScript
+     
+         2. Resumo do projeto 👇
+
+ Este  projeto,  trta-se de um site baseado em outro site criando por um Indiano , onde cliente entra escolhe o produto e efetua o pagamento.
+         
+
+           3. Prototipagem ❤️ 🧡 💛 💚
+           esquematização de linhas das paginas etc.
+           pagina 1 e pagina 2
