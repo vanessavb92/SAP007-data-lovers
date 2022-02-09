@@ -1,29 +1,34 @@
-document.querySelector('.card-number-input').oninput = () =>{
-    document.querySelector('.card-number-box').innerText = document.querySelector('.card-number-input').value;
-}
+import validator from "./validator.js";
 
-document.querySelector('.card-holder-input').oninput = () =>{
-    document.querySelector('.card-holder-name').innerText = document.querySelector('.card-holder-input').value;
-}
+let cardNumber = document.getElementById("cardNumber");
 
-document.querySelector('.mes-input').oninput = () =>{
-    document.querySelector('.exp-mes').innerText = document.querySelector('.mes-input').value;
-}
+const validate = document.getElementById("buttonValidate");
 
-document.querySelector('.ano-input').oninput = () =>{
-    document.querySelector('.val-ano').innerText = document.querySelector('.ano-input').value;
-}
+validate.addEventListener("click", function (e) {
+  e.preventDefault();
 
-document.querySelector('.cvv-input').onmouseenter = () =>{
-    document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(-180deg)';
-    document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(0deg)';
-}
+  let cardNumberValue = cardNumber.value.replace(/\D/g, " ");
 
-document.querySelector('.cvv-input').onmouseleave = () =>{
-    document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(0deg)';
-    document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(180deg)';
-}
+  const validationAnswer = document.getElementById("validationAnswer");
+  const cardNumberMask = document.getElementById("maskNumber");
 
-document.querySelector('.cvv-input').oninput = () =>{
-    document.querySelector('.cvv-box').innerText = document.querySelector('.cvv-input').value;
-}
+  const result = validator.isValid(cardNumberValue);
+
+  if (result === true) {
+    validationAnswer.style.color = "#149F50";
+    validationAnswer.style.fontWeight = "600";
+    validationAnswer.textContent = "CARTÃO VÁLIDO";
+  } else {
+    validationAnswer.style.color = "#FF0F0F";
+    validationAnswer.style.fontWeight = "600";
+    validationAnswer.textContent = "CARTÃO INVÁLIDO";
+  }
+
+  let mascara = validator.maskify(cardNumberValue);
+
+  if (result === true) {
+    cardNumberMask.innerHTML = mascara;
+  } else {
+    cardNumberMask.innerHTML = "Tente de novo";
+  }
+});
