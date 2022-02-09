@@ -1,16 +1,16 @@
-    Cartão de Crédito Válido 💳
+ Cartão de Crédito Válido
 
-           Índice 👇
+## Índice
 
 - [1. Introdução](#1-Introdução)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
-- [4. Considerações gerais](#4-consideracoes-gerais)
-- [9. Checklist](#9-checklist)
+- [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 
 ---
 
-           1. Introdução👇
-           O [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
+## 1. Introdução
+
+O [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também
 chamado de módulo 10, é um método de soma de verificação, usado para validar
 números de identificação, como o IMEI de telefones celulares, cartões de crédito
 etc.
@@ -21,12 +21,11 @@ ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
 adicionar os dígitos do resultado; o número a verificar será válido se a soma de
 seus dígitos finais for um múltiplo de 10.
 
-     
-         2. Resumo do projeto 👇
+2. Resumo do projeto
+Este projeto e referente a site de uma cafeteria, ainda esta sob construçao,usuario acessa a plataforme escolhe o produto e logo efetua o pagamento no cartão de crédito.(foi baseado em um desenvolvimento web do Nepal).
 
- Este  projeto,  trta-se de um site baseado em outro site criando por um Indiano , onde cliente entra escolhe o produto e efetua o pagamento.
-         
 
-           3. Prototipagem ❤️ 🧡 💛 💚
-           esquematização de linhas das paginas etc.
-           pagina 1 e pagina 2
+  # Prototipagem
+  tela 1
+  tela 2
+  cores usadas (blak,white,)
