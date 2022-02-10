@@ -14,7 +14,7 @@ const validator = {
         }
         arrayCardNumbers[index] = valueNumber;
       }
-
+          
       sum += valueNumber;
     }
 
