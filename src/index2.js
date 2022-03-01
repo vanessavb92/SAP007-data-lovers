@@ -7,7 +7,6 @@ const cardNumberMask = document.getElementById("maskNumber");
 
 validate.addEventListener("click", function (e) {
     e.preventDefault();
-    console.log("clicou")
     let cardNumberValue = cardNumber.value.replace(/\D/g, " ");
 
 
@@ -26,6 +25,6 @@ validate.addEventListener("click", function (e) {
     if (result === true) {
         cardNumberMask.innerHTML = mascara;
     } else {
-        cardNumberMask.innerHTML = "Tente novamente";
+        cardNumberMask.innerHTML = ""
     }
 });
