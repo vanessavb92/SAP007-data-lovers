@@ -17,7 +17,7 @@ const validator = {
           
       sum += valueNumber;
     }
-
+   
     if (sum % 10 === 0 && cardNumberValue !== "" && sum !== 0) {
       return true;
     } else {
