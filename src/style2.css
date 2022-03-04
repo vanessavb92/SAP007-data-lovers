@@ -1,5 +1,6 @@
 body {
-  background-color: black;
+  background-image: url("img.jpg");
+  background-size: cover;
   display: flex ;
   justify-content: center;
   flex-direction: column;
@@ -26,7 +27,7 @@ body {
 }
 .header {
   background: transparent; 
-  color: yellow;
+  color: #FFFF00;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 10px;
   padding: var(--spacing-double);
@@ -56,7 +57,7 @@ body {
   border-radius: 10px;
   background-color: rgb(10, 48, 119);
   text-align: center; 
-  color: yellow;
+  color: #FFFF00;
   font-size: 16px;
 }
 
