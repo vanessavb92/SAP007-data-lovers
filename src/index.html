@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>Validação de Cartão</title>
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="icon" href="assets/Logo.svg" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
       <h1>
-        verificação de cartão de crédito válido
+      Validação cartão de crédito
       </h1>
-    
+  
     </header>
                 <input
                   type="number"
@@ -22,9 +21,12 @@
                   placeholder="xxxx-xxxx-xxxx-xxxx"
                   maxlength="16"
                 />
-                <span id="validationAnswer"></span>
                 <button class="buttonCheck" type="submit" id="buttonValidate">
-                  Verificar
+                    <span id="validationAnswer"></span>
+                  <span class="transition"></span>
+                  <span class="gradient"></span>
+                
+                
                 </button>
               </form>
 
@@ -42,7 +44,7 @@
      
       
    
-    <script src="index2.js" type="module"></script>
+    <script src="index.js" type="module"></script>
 
   </body>
 </html>
