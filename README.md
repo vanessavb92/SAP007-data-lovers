@@ -17,7 +17,7 @@ A fan-page "league of legends", é uma página direcionada aos fãs, a fim de of
 #Sobre a desenvolvedora
 Tenho grande aspiração por jogos de guerra e batalhas, gosto de jogos de desafios onde me faz montar estatégias contra meus inimigos,devido a isso escolhe o league para esse desafio.
 
-#Os usuários e suas histórias...
+# Os usuários e suas histórias...
 A partir da minha  pesquisa e da mesma fornecida, feita com usuários potenciais, escolhi suas principais histórias, e seus pontos mais relevantes, e concluí que para eles seria de suma importância:
 
 Ter acesso completo com informações como: sobre, produção, data de lançamento, entre outras, de forma organizada;
@@ -28,6 +28,8 @@ Ter acesso a avaliação por nota da crítica, de cada personagem de forma organ
 
 Conhecer os criadores, e quantas e quais, personagens e jogos criaram;
 
+![Protótipo 01](src/usuario.png)
+
 #A implementação:
 Busquei através de botões de fácil acesso exibir os dados buscados pelo usuário na tela. Também a exibição da porcentagem de personagens e suas habilidades , Dividi o site em duas páginas para facilitar essa exibição.
 
@@ -35,8 +37,6 @@ Busquei através de botões de fácil acesso exibir os dados buscados pelo usuá
 ![Protótipo 01](src/atirador.png)
 ![Protótipo 01](src/atirador3.png)
 ![Protótipo 01](src/atirador2.png)
-
-
 
 
 # Alta fidelidade
