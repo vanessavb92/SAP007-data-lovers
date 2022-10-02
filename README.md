@@ -8,11 +8,11 @@ A fan-page "league of legends", é uma página direcionada aos fãs, a fim de of
 ![ Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 # Conteúdos
-
 * [Os usuários e suas histórias...](#os-usuários-e-suas-histórias)
 * [A paleta de cores](#a-paleta-de-cores)
 * [A implementação](#a-implementação)
 * [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
+* [Personagens](#personagens)
 
 #Sobre a desenvolvedora
 Tenho grande aspiração por jogos de guerra e batalhas, gosto de jogos de desafios onde me faz montar estatégias contra meus inimigos,devido a isso escolhe o league para esse desafio.
