@@ -10,8 +10,10 @@ A fan-page "league of legends", é uma página direcionada aos fãs, a fim de of
 # Conteúdos
 
 * [Os usuários e suas histórias...](#os-usuários-e-suas-histórias)
-  * [A paleta de cores](#a-paleta-de-cores)
+* [A paleta de cores](#a-paleta-de-cores)
 * [A implementação](#a-implementação)
+* [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
+
 #Sobre a desenvolvedora
 Tenho grande aspiração por jogos de guerra e batalhas, gosto de jogos de desafios onde me faz montar estatégias contra meus inimigos,devido a isso escolhe o league para esse desafio.
 
@@ -28,6 +30,20 @@ Conhecer os criadores, e quantas e quais, personagens e jogos criaram;
 
 #A implementação:
 Busquei através de botões de fácil acesso exibir os dados buscados pelo usuário na tela. Também a exibição da porcentagem de personagens e suas habilidades , Dividi o site em duas páginas para facilitar essa exibição.
+
+# # Personagens
+![Protótipo 01](src/atirador.png)
+![Protótipo 01](src/atirador3.png)
+![Protótipo 01](src/atirador2.png)
+
+
+
+
+# Alta fidelidade
+![Protótipo 02](src/altafidelidade2.png)
+
+![Protótipo 03](src/altafidelidade.png)
+
 
 
 # Sobre mim:
