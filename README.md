@@ -10,11 +10,7 @@ A fan-page "league of legends", é uma página direcionada aos fãs, a fim de of
 # Conteúdos
 
 * [Os usuários e suas histórias...](#os-usuários-e-suas-histórias)
-* [Desenho de interface do usuário](#desenho-de-interface-do-usuário)
-  * [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
   * [A paleta de cores](#a-paleta-de-cores)
-  * [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
-  * [Personagem](#personagem)
 * [A implementação](#a-implementação)
 #Sobre a desenvolvedora
 Tenho grande aspiração por jogos de guerra e batalhas, gosto de jogos de desafios onde me faz montar estatégias contra meus inimigos,devido a isso escolhe o league para esse desafio.
