@@ -30,7 +30,8 @@ Conhecer os criadores, e quantas e quais, personagens e jogos criaram;
 
 ![Protótipo 01](src/usuario.png)
 
-#A implementação:
+
+# A implementação:
 Busquei através de botões de fácil acesso exibir os dados buscados pelo usuário na tela. Também a exibição da porcentagem de personagens e suas habilidades , Dividi o site em duas páginas para facilitar essa exibição.
 
 # # Personagens
